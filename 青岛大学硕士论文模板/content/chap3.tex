@@ -1,0 +1,53 @@
+\chapter{实验与结果分析}
+\label{chapter:experiment}
+
+\section{实验设置}
+这里填写实验设置。
+
+\section{结果分析}
+表~\ref{tab:example} 是示例表格，学校要的是三线表。
+
+\begin{table}[H]
+    \centering
+    \caption{示例表格}
+    \label{tab:example}
+    \begin{tabular}{ccc}
+        \toprule
+        方法 & 指标一 & 指标二 \\
+        \midrule
+        方法 A & 0.90 & 0.85 \\
+        方法 B & 0.92 & 0.88 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+更复杂的表可以参考表~\ref{tab:comparative_performance}，这里用了 我自己的结果，请修改即可。
+
+\begin{table}[htbp]
+	\centering
+	\caption{总体性能对比 (mean $\pm$ std)}
+	\label{tab:comparative_performance}
+	\small
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{l ccc ccc ccc}
+			\toprule
+			\multirow{2}{*}{\textbf{方法}} &
+			\multicolumn{3}{c}{\textbf{MI 任务}} &
+			\multicolumn{3}{c}{\textbf{MA 任务}} &
+			\multicolumn{3}{c}{\textbf{WG 任务}} \\
+			\cmidrule(lr){2-4} \cmidrule(lr){5-7} \cmidrule(lr){8-10}
+			& Acc. (\%) & F1 (\%) & Sig. & Acc. (\%) & F1 (\%) & Sig. & Acc. (\%) & F1 (\%) & Sig. \\
+			\midrule
+			EFNet (2024)     & \textbf{80.5 $\pm$ 6.6} & \textbf{76.9 $\pm$ 8.0} & – & 68.6 $\pm$ 7.6 & 57.6 $\pm$ 8.7 & $^{***}$ & 80.1 $\pm$ 6.6 & 74.8 $\pm$ 8.0 & $^{*}$ \\
+			ECAfusion (2025)  & 67.9 $\pm$ 8.7 & 55.9 $\pm$ 9.2 & $^{**}$ & 64.6 $\pm$ 4.8 & 52.2 $\pm$ 5.0 & $^{***}$ & 71.4 $\pm$ 7.8 & 64.5 $\pm$ 9.4 & $^{**}$ \\
+			STANet (2025)    & 73.9 $\pm$ 6.1 & 63.4 $\pm$ 11.3 & $^{*}$ & 71.5 $\pm$ 9.0 & 63.1 $\pm$ 11.4 & $^{**}$ & 73.9 $\pm$ 6.1 & 63.4 $\pm$ 11.3 & $^{*}$ \\
+			M2NN (2022)    & 67.4 $\pm$ 7.2 & 52.7 $\pm$ 6.0 & $^{**}$ & 66.8 $\pm$ 7.4 & 53.0 $\pm$ 6.3 & $^{**}$ & 74.6 $\pm$ 6.5 & 68.9 $\pm$ 7.5 & $^{*}$ \\
+			ST2A (2025)   & 72.8 $\pm$ 7.8 & 62.0 $\pm$ 9.7 & $^{**}$ & 72.8 $\pm$ 7.8 & 62.0 $\pm$ 9.7 & $^{**}$ & 77.5 $\pm$ 8.8 & 74.1 $\pm$ 8.8 & – \\
+			\textbf{DyGFN (本文)}               & \textbf{80.8 $\pm$ 6.9} & 75.3 $\pm$ 7.3 & \textbf{–} & \textbf{82.1 $\pm$ 6.9} & \textbf{76.6 $\pm$ 6.7} & \textbf{–} & \textbf{80.8 $\pm$ 5.9} & \textbf{75.7 $\pm$ 7.3} & \textbf{–} \\
+			\bottomrule
+		\end{tabular}
+	}
+\end{table}
+
+\section{本章小结}
+这里填写本章小结。

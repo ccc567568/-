@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\doi{\begingroup \urlstyle{same}\Url}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+\fi
+
+\bibitem[Zhang et~al.(2024)Zhang and Li]{example2024}
+ZHANG S, LI S.
+\newblock An example reference for thesis template\allowbreak[J].
+\newblock Journal of Example Research, 2024, 1\allowbreak (1): 1-10.
+
+\end{thebibliography}

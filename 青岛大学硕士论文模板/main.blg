@@ -1,0 +1,75 @@
+This is BibTeX, Version 0.99e (TeX Live 2026)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: content/cover.aux
+A level-1 auxiliary file: content/abstr.aux
+A level-1 auxiliary file: content/chap1.aux
+A level-1 auxiliary file: content/chap2.aux
+A level-1 auxiliary file: content/chap3.aux
+The style file: gbt7714-numeric.bst
+A level-1 auxiliary file: content/appdx.aux
+A level-1 auxiliary file: content/achievement.aux
+A level-1 auxiliary file: content/thanks.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 150 items from 100.
+Reallocated singl_function (elt_size=4) to 200 items from 150.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 150 items from 100.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 150 items from 100.
+Reallocated singl_function (elt_size=4) to 200 items from 150.
+Reallocated singl_function (elt_size=4) to 250 items from 200.
+Reallocated singl_function (elt_size=4) to 300 items from 250.
+Reallocated singl_function (elt_size=4) to 350 items from 300.
+Reallocated wiz_functions (elt_size=4) to 12000 items from 9000.
+Database file #1: mainref.bib
+You've used 1 entry,
+            9429 wiz_defined-function locations,
+            1727 strings with 15268 characters,
+and the built_in function-call counts, 121784 in all, are:
+= -- 15652
+> -- 2521
+< -- 2225
++ -- 7381
+- -- 2197
+* -- 2260
+:= -- 5121
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 12
+chr.to.int$ -- 2059
+cite$ -- 1
+duplicate$ -- 13890
+empty$ -- 2356
+format.name$ -- 18
+if$ -- 22894
+int.to.chr$ -- 44
+int.to.str$ -- 2
+missing$ -- 0
+newline$ -- 17
+num.names$ -- 3
+pop$ -- 728
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 3158
+stack$ -- 0
+substring$ -- 20518
+swap$ -- 18310
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 25
+warning$ -- 0
+while$ -- 355
+width$ -- 0
+write$ -- 25
